@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:descendantFocusability="blocksDescendants"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:id="@+id/achat"
+        android:textColor="#111"
+        android:inputType="date"
+        android:textSize="20dp"
+        android:paddingLeft="30dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:id="@+id/montant"
+        android:textSize="17dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:id="@+id/date"
+        android:textColor="#111"
+        android:inputType="date"
+        android:paddingLeft="220dp"
+        android:textSize="17dp"
+        />
+
+
+</LinearLayout>
